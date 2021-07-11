@@ -33,7 +33,6 @@ export function TaskList() {
     
     const taskCompleted = tasks.map((task) => {
       if (task.id === id) {
-        console.log(task.isComplete);
         task.isComplete = !task.isComplete;
       };
       return task;
@@ -44,15 +43,11 @@ export function TaskList() {
 
   function handleRemoveTask(id: number) {
 
-    const filteredTask = tasks.map((task) => {
-      if (task.id === id) {
-        console.log(task.isComplete);
-        task.isComplete = !task.isComplete;
-      };
-      return task;
+    const removedTasks = tasks.filter((task) => {
+      return (task.id != id) 
+      
     });
-
-    setTasks(filteredTask);
+    setTasks(removedTasks);
   }
 
   return (
