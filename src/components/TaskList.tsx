@@ -16,7 +16,7 @@ export function TaskList() {
 
   function handleCreateNewTask() {
     if(!newTaskTitle) {
-      window.alert("POr favor, informar um título para sua tarefa");
+      // window.alert("Por favor, informar um título para sua tarefa");
       return
     }
 
