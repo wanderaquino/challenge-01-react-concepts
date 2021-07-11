@@ -30,6 +30,20 @@ export function TaskList() {
   }
 
   function handleToggleTaskCompletion(id: number) {
+    
+    const taskCompleted = tasks.map((task) => {
+      if (task.id === id) {
+        console.log(task.isComplete);
+        task.isComplete = !task.isComplete;
+      };
+      return task;
+    });
+
+    setTasks(taskCompleted);
+  }
+
+  function handleRemoveTask(id: number) {
+
     const filteredTask = tasks.map((task) => {
       if (task.id === id) {
         console.log(task.isComplete);
@@ -37,12 +51,8 @@ export function TaskList() {
       };
       return task;
     });
-    setTasks(filteredTask);
-    console.log(filteredTask);
-  }
 
-  function handleRemoveTask(id: number) {
-    // Remova uma task da listagem pelo ID
+    setTasks(filteredTask);
   }
 
   return (
