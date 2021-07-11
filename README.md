@@ -25,8 +25,14 @@ Tecnologies used on ToDo Application :
 3. Run as localhost mode using ```npm run dev```
 4. Code!
 
+## Test
+1. Clone main repo
+2. Install dependencies using ```npm install```
+3. Run as localhost mode using ```npm run test```
+4. Code!
+
 ## Production
 1. Clone main repo
 2. Install dependencies using ```npm install```
-3. Run as localhost mode using ```npm run build```
+3. Run production environment build using ```npm run build```
 4. Enjoy!
