@@ -20,13 +20,13 @@ Tecnologies used on ToDo Application :
 | Babel | https://babeljs.io/ |
 
 ## Development
-1 - Clone main repo
-2 - Install dependencies using ```npm install```
-3 - Run as localhost mode using ```npm run dev```
-4 - Code!
+1. Clone main repo
+2. Install dependencies using ```npm install```
+3. Run as localhost mode using ```npm run dev```
+4. Code!
 
 ## Production
-1 - Clone main repo
-2 - Install dependencies using ```npm install```
-3 - Run as localhost mode using ```npm run build```
-4 - Code!
+1. Clone main repo
+2. Install dependencies using ```npm install```
+3. Run as localhost mode using ```npm run build```
+4. Enjoy!
